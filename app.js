@@ -75,7 +75,7 @@ function handleSaveClick() {
   const image = canvas.toDataURL("");
   const link = document.createElement("a");
   link.href = image;
-  link.download = "PaintJS[♥]";
+  link.download = "민지그림❣";
   link.click();
 }
 
@@ -100,6 +100,6 @@ if (mode) {
   mode.addEventListener("click", handleModeClick);
 }
 
-if(saveBtn) {
+if (saveBtn) {
   saveBtn.addEventListener("click", handleSaveClick);
 }
